@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Habitación Deluxe - Hotel Paraiso</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Paraiso</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="servicios.html">Servicios Extra</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Detalle de la Habitacion: Deluxe</h2>
+        <img src="hab-deluxe.jpg" alt="Habitación Deluxe" width="400">
+        
+        <p>Espacio más amplio con cama queen size, escritorio de trabajo y vista al jardín.[cite: 4]</p>
+        <p><strong>Precio: $90 por noche</strong>[cite: 4]</p>
+
+        <section>
+            <h3>Reserva esta habitación</h3>
+            <form action="#" method="GET">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <br><br>
+
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <br><br>
+
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <br><br>
+
+                <label for="personas">Cantidad de personas (1-3):</label>
+                <input type="number" id="personas" name="personas" min="1" max="3" required>
+                <br><br>
+
+                <button type="submit">Reservar ahora</button>
+            </form>
+        </section>
+        
+        <br>
+        <a href="habitaciones.html">Volver a habitaciones</a>
+    </main>
+
+    <footer>
+        <p> 2026 Hotel Paraíso</p>
+    </footer>
+</body>
+</html>
